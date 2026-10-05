@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Lead Form Test - Server Side</title>
+  <title>Lead Form Test - Client Side</title>
+
+  <script async
+    src="https://zo1788874247599.my.site.com/lp/assets/scripts/external-form-handler-host.min.js"
+    onload="SFDCFormHandler.init('https://zo1788874247599.my.site.com/lp')">
+  </script>
 </head>
 <body>
   <h2>Contact Us</h2>
 
-  <form method="POST"
-        action="https://zo1788874247599.my.site.com/lp/cms/form/submit/v1/MCZHJ7CRWIGFCMZMQETLPMJBFYO4">
+  <form id="MCZHJ7CRWIGFCMZMQETLPMJBFYO4" data-uma-forms="true">
     <input type="text" name="FirstName" placeholder="First Name"><br><br>
     <input type="text" name="LastName" placeholder="Last Name" required><br><br>
     <input type="email" name="Email" placeholder="Email"><br><br>
